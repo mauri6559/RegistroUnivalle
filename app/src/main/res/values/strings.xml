@@ -4,7 +4,7 @@
     <string name="hint_apellido">Apelldo:</string>
     <string name="hint_email">Email:</string>
     <string name="hint_celular">Celular:</string>
-    <string name="hint_nota">Nota:</string>
+    <string name="hint_codigoEstudiante">Codigo de estudiante:</string>
     <string name="text_switch">Estudiante?:</string>
     <string name="btn_registrar">Registrar</string>
 </resources>

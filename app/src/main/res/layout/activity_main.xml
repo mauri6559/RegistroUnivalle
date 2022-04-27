@@ -12,10 +12,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
         android:text="@string/btn_registrar"
-        app:layout_constraintEnd_toEndOf="@+id/etNota"
+        app:layout_constraintEnd_toEndOf="@+id/etCodigoEstudiante"
         app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="@+id/etNota"
-        app:layout_constraintTop_toBottomOf="@+id/etNota" />
+        app:layout_constraintStart_toStartOf="@+id/etCodigoEstudiante"
+        app:layout_constraintTop_toBottomOf="@+id/etCodigoEstudiante" />
 
     <Switch
         android:id="@+id/swEstudiante"
@@ -89,12 +89,12 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <EditText
-        android:id="@+id/etNota"
+        android:id="@+id/etCodigoEstudiante"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:ems="10"
-        android:hint="@string/hint_nota"
+        android:hint="@string/hint_codigoEstudiante"
         android:inputType="number"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
